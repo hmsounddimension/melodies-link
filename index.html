@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redirecting...</title>
+  <script>
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+    if (/android/i.test(ua)) {
+      window.location.href = "https://play.google.com/store/apps/details?id=se.melodies.mermusik";
+    } else if (/iPad|iPhone|iPod/.test(ua)) {
+      window.location.href = "https://apps.apple.com/se/app/mer-musik/id6502040812";
+    } else {
+      window.location.href = "https://www.melodies.audio";
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
